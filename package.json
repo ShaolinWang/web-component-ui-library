@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
-    "clean": "rimraf my-element.{d.ts,d.ts.map,js,js.map} test/my-element.{d.ts,d.ts.map,js,js.map} test/my-element_test.{d.ts,d.ts.map,js,js.map}",
+    "clean": "rimraf lib/my-element.{d.ts,d.ts.map,js,js.map} lib/test/my-element.{d.ts,d.ts.map,js,js.map} lib/test/my-element_test.{d.ts,d.ts.map,js,js.map}",
     "lint": "npm run lint:lit-analyzer && npm run lint:eslint",
     "lint:eslint": "eslint 'src/**/*.ts'",
     "lint:lit-analyzer": "lit-analyzer",
@@ -33,7 +33,7 @@
     "lit-element",
     "typescript"
   ],
-  "author": "The Polymer Authors",
+  "author": "wangshaolin3@jd.com",
   "license": "BSD-3-Clause",
   "dependencies": {
     "lit-element": "^2.3.1"
